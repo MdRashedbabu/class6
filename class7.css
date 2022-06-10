@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    overflow: hidden;
+    background-color: rgb(199, 156, 238);
+}
+header .logo{
+    width: 20%;
+    float: left;
+}
+
+header .menu{
+width: 80%;
+float:right;
+}
+header .logo img{
+    width: 120px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+text-decoration: none;
+padding: 40px;px 15px;
+color: black;
+font-size: 19px;
+display: inline-block;
+}
+.menu ul li a:hover{
+    background-color:#fff;
+}
+#heroarea{
+  background:  url("assets/bobo.jpg");
+  background-position: center;
+}
+#heroarea h1{
+   padding: 280px 70px;
+   color: #fff;
+   font-size: 60px;
+}
+#mainarea div{
+   width: 30%;
+   float: left;
+   margin: 15px 16px;
+   padding: 20px;
+   box-sizing: border-box;
+   transition: 5s;
+}
+
+#mainarea div h1{
+   margin: bottom 30px;
+}
+
+#mainarea .part1{
+    background-color: blanchedalmond;
+}
+#mainarea .part2{
+    background-color: aquamarine;
+}
+#mainarea .part3{
+    background-color: rgb(171, 111, 227);
+}
+#mainarea .part1:hover{
+    transform: rotate(360deg);
+    background-color: blueviolet;
+}
+#mainarea .part2:hover{
+    transform: rotate(360deg);
+    background-color: blueviolet;
+}
+ #mainarea .part3:hover{
+    transform: rotate(360deg);
+    background-color: blueviolet;
+}
+footer{
+    clear: both;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
